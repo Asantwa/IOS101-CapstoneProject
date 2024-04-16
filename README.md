@@ -39,37 +39,50 @@ b. Routine Maker:
 * As a college student, I want to utilize a routine maker app to discover and adopt effective study routines and time management strategies, so that I can maximize my productivity, minimize procrastination, and achieve academic success. By exploring curated routines tailored to students' needs and goals, I aim to establish healthy study habits, stay organized during busy exam periods, and strike a balance between academic responsibilities and personal well-being.
 
 ### 2. Screen Archetypes
+[ ] [Welcome Screen]
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+This screen welcomes users to the Routine Mixer app and provides a brief overview of its features.
+It includes options for users to sign up for a new account or log in if they already have an existing account.
+The onboarding screen may also offer a tutorial or guide to help users understand how to navigate the app effectively.
+
+* [Routine Exploration Screen]
+* This screen displays a curated selection of different routines categorized by themes such as morning rituals, productivity hacks, fitness routines, and self-care practices.
+Users can browse through various routines and view detailed descriptions, including the benefits, steps, and duration of each routine.
+The routine exploration screen may also feature user ratings and reviews to help users discover popular and highly-rated routines.
+
+
+* [Routine Details Screen]
+* When a user selects a specific routine from the exploration screen, they are taken to the routine details screen.
+This screen provides comprehensive information about the selected routine, including step-by-step instructions, recommended tools or resources, and tips for success.
+Users can customize the routine based on their preferences and schedule, such as adjusting the duration of each activity or adding personal notes.
+The routine details screen may also include interactive features such as timers, progress trackers, and reminders to help users stay on track with their routines.
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
+**Tab Navigation:** (Tab to screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+1. **Discover Routines** - Displays a feed of recommended routines based on user preferences and goals.
+2. **Create Routine** - Allows users to create and customize their own routines tailored to their needs.
+3. **Archive** - Displays user previous routine information.
 
-**Flow Navigation** (Screen to Screen)
+**Flow Navigation:** (Tab to screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- **Main Screen**
+  - Navigates to the **Discover Routines** tab upon opening app.
+- **Discover Routines Screen**
+  - No direct navigation, but users can explore and select routines to view details and add to their favorites.
+- **Create Routine Screen**
+  - Navigates back to the **Discover Routines** tab after the user finishes creating a new routine.
+- **Archive Screen**
+  - Allows users to view and edit their previous information, settings, and preferences.
 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://drive.google.com/file/d/1CSYt4tKHr97PcxUHw4Txll3qdRlMntqI/view?usp=drive_link" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+https://www.figma.com/file/U6SwKaUOIpBoZm67nZ6Oex/IOSCapstone?type=design&node-id=0%3A1&mode=design&t=MGV6fjcoE5ibBkVb-1
 
 ### [BONUS] Interactive Prototype
 
