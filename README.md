@@ -93,7 +93,7 @@ https://drive.google.com/file/d/1LlpqehPvLGtBIMclb0cSim4E5mqPRuy3/view?usp=drive
 
 ### Models
 
-[[Add table of models]](https://drive.google.com/file/d/1LlpqehPvLGtBIMclb0cSim4E5mqPRuy3/view?usp=drive_link)
+(https://drive.google.com/file/d/1LlpqehPvLGtBIMclb0cSim4E5mqPRuy3/view?usp=drive_link)
 
 ### Networking
 
@@ -102,6 +102,7 @@ Network Request: Fetch a list of routines from the server.
 Network Request: Create a new routine on the server.
 
 
-
+VIDEO
+https://www.loom.com/share/65d5d82882cd47868127be04a5e7901c?sid=0a7ff5a7-3fe7-4697-8acb-d0889f339c7a
 
 
