@@ -88,14 +88,59 @@ https://www.figma.com/file/U6SwKaUOIpBoZm67nZ6Oex/IOSCapstone?type=design&node-i
 
 ## Schema 
 
-[This section will be completed in Unit 9]
+Built out  app features. Product didn't properly save so I'm unable to click out to other tabs.
+https://drive.google.com/file/d/1LlpqehPvLGtBIMclb0cSim4E5mqPRuy3/view?usp=drive_link
 
 ### Models
 
-[Add table of models]
+[[Add table of models]](https://drive.google.com/file/d/1LlpqehPvLGtBIMclb0cSim4E5mqPRuy3/view?usp=drive_link)
 
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+Network Request: Fetch a list of routines from the server.
+// Fetch routines from the server
+func fetchRoutines(completion: @escaping ([Routine]?, Error?) -> Void) {
+    let url = URL(string: "https://yourapi.com/routines")!
+    URLSession.shared.dataTask(with: url) { data, response, error in
+        guard let data = data, error == nil else {
+            completion(nil, error)
+            return
+        }
+        do {
+            let routines = try JSONDecoder().decode([Routine].self, from: data)
+            completion(routines, nil)
+        } catch {
+            completion(nil, error)
+        }
+    }.resume()
+}
+
+
+Network Request: Create a new routine on the server.
+// Create a new routine on the server
+func createRoutine(routine: Routine, completion: @escaping (Bool, Error?) -> Void) {
+    guard let url = URL(string: "https://yourapi.com/create-routine") else {
+        completion(false, NSError(domain: "Invalid URL", code: -1, userInfo: nil))
+        return
+    }
+    var request = URLRequest(url: url)
+    request.httpMethod = "POST"
+    request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    do {
+        let jsonData = try JSONEncoder().encode(routine)
+        request.httpBody = jsonData
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let _ = data, error == nil else {
+                completion(false, error)
+                return
+            }
+            completion(true, nil)
+        }.resume()
+    } catch {
+        completion(false, error)
+    }
+}
+
+
+
