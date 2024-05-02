@@ -103,6 +103,6 @@ Network Request: Create a new routine on the server.
 
 
 VIDEO
-https://www.loom.com/share/65d5d82882cd47868127be04a5e7901c?sid=0a7ff5a7-3fe7-4697-8acb-d0889f339c7a
+[(https://www.loom.com/share/9a638218b3eb4ae086064944c3285214?sid=d59c5bff-ef11-4ec7-8db3-b01c13d23ea2)]
 
 
